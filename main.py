@@ -5,13 +5,9 @@ def extract_transfers_from_file(file_path):
     model_data = []
     current_model = {}
     capture_phase = False
-    
-    elements = [
-        "Fe(OH)3(a)", "Dolomite", "Rhodochrosite", "Al(OH)3(a)", "Alunite", "Halite", "Pyrochroite", 
-        "Melanterite", "CaX2", "KX", "MgX2", "NaX", "Pyrite", "Fe(3)", "O(0)", "S(-2)", "CH4(g)", 
-        "C(-4)", "Sylvite", "Siderite", "Calcite", "Jarosite-K", "Hematite", "Manganite", "H2S(g)", 
-        "H2(g)", "H(0)", "CO2(g)", "Gypsum", "O2(g)", "Pyrolusite", "H2O(g)", "Goethite"
-    ]
+
+    #Include your elements here, str.
+    elements = [ ]
     
     model_number = 0
     for line in lines:
